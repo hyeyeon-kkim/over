@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Over The Taste</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="solution-style.css">
+
+    <!-- 구글 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+        
+    <style>
+        body {
+            margin: 0; 
+            padding: 0; 
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: green; 
+        }
+
+        #home {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background-image: url('images/main-bg.png');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo-container img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .bg-light-green {
+            background-color: #eef0e6;
+            height: 100vh; 
+            margin: 0; 
+            padding: 0; 
+        }
+
+        .full-height {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .text-container {
+            padding: 20px;
+        }
+
+        .text-left {
+            text-align: left;
+        }
+
+        .image-container {
+            display: flex;
+            gap: 20px; /* 포스터 사이의 간격 조정 */
+        }
+
+        .poster {
+            text-align: center;
+        }
+
+        .poster img {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .text-below {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+ <section class="container-fluid bg-light-green full-height" id="Fantasy">
+        <div class="row w-100 m-0 text-center">
+            <div class="col-12 p-5">
+                <h2 class="fw-bold text-success">Fantasy</h2>
+                <p class="lead text-muted">상상이 풍부한 세계관을 담은 애니메이션</p>
+                <div class="image-container d-flex justify-content-center">
+                    <div class="poster">
+                        <img src="images/Fposter1.png" width="200px" height="300px" alt="Fantasy" data-bs-toggle="modal" data-bs-target="#bestmenuModal9">
+                        <div class="text-below">헌터X헌터</div>
+                    </div>
+                    <div class="poster">
+                        <img src="images/Fposter2.png" width="200px" height="300px" alt="Fantasy" data-bs-toggle="modal" data-bs-target="#bestmenuModal10">
+                        <div class="text-below">은혼</div>
+                    </div>
+                    <div class="poster">
+                        <img src="images/Fposter3.png" width="200px" height="300px" alt="Fantasy" data-bs-toggle="modal" data-bs-target="#bestmenuModal11">
+                        <div class="text-below">스즈메의 문단속</div>
+                    </div>
+                    <div class="poster">
+                        <img src="images/Fposter4.png" width="200px" height="300px" alt="Fantasy" data-bs-toggle="modal" data-bs-target="#bestmenuModal12">
+                        <div class="text-below">장송의 프리렌</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="bestmenuModal9" tabindex="-1" aria-labelledby="exampleModalLabel9" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel9">헌터 X 헌터</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    헌터X헌터는 요시히로 토가시가 창작한 일본 만화 시리즈로, 고무고무나루와 그의 친구들이 전설적인 헌터가 되기 위해 모험을 떠나는 이야기를 다루고 있다. 
+                    헌터는 다양한 분야에서 뛰어난 능력을 가진 엘리트 모험가들이다. 주인공 고무고무나루는 어린 나이에 아버지 진 프릭스를 찾아 헌터가 되기로 결심한다. 
+                    그 과정에서 고무고무나루는 다양한 시험과 도전에 직면하게 된다. 고무고무나루는 헌터 시험에서 레오리오, 쿠라피카, 키르아와 같은 친구들을 만나게 된다. 이들은 함께 모험을 하며 강력한 적들과 싸우고, 신비한 능력인 넨을 익혀간다. 
+                    헌터X헌터는 깊이 있는 스토리와 다채로운 캐릭터들로 팬들에게 큰 인기를 끌고 있다.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="bestmenuModal10" tabindex="-1" aria-labelledby="exampleModalLabel10" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel10">은혼</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    은혼은 소라치 히데아키가 창작한 일본 만화 시리즈로, 에도 시대와 외계인 기술이 결합된 독특한 세계를 배경으로 하고 있다. 
+                    주인공 사카타 긴토키는 은혼 상점이라는 만능 해결사 사무소를 운영하며, 의뢰를 받아 다양한 문제를 해결한다. 
+                    긴토키는 동료인 시무라 신파치와 야규 카구라와 함께 일상 속에서 많은 모험을 겪는다. 은혼은 코미디와 액션, 드라마를 적절히 섞어 많은 팬들에게 사랑받고 있다. 다양한 패러디와 유머러스한 상황, 그리고 감동적인 스토리가 매력적인 요소이다. 
+                    작품은 에피소드 형식으로 진행되며, 각 에피소드마다 새로운 이야기가 전개된다. 은혼은 긴토키와 그의 동료들이 어떤 상황에서도 유쾌하게 극복하는 모습을 통해 희망과 웃음을 선사한다.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="bestmenuModal11" tabindex="-1" aria-labelledby="exampleModalLabel11" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel11">스즈메의 문단속</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    스즈메의 문단속은 일본 애니메이션 영화로, 신카이 마코토 감독이 연출한 작품이다. 주인공 스즈메는 우연히 발견한 신비한 문을 통해 이상한 세계로 들어가게 된다. 
+                    이 문은 재해를 막는 중요한 역할을 하며, 스즈메는 문을 닫아야 하는 임무를 맡게 된다. 스즈메는 여행 중 다양한 인물들을 만나고, 각자의 사연을 듣게 된다. 
+                    그녀는 문을 닫는 과정에서 자신의 내면과 마주하며 성장해 나간다. 이 영화는 아름다운 시각적 표현과 감동적인 스토리로 많은 관객들에게 사랑받았다. 
+                    스즈메의 문단속은 모험과 자기 발견, 그리고 인간관계의 중요성을 다루는 작품이다.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="bestmenuModal12" tabindex="-1" aria-labelledby="exampleModalLabel12" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel12">장송의 프리렌</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    장송의 프리렌은 칸자키 카이토가 글을 쓰고 아베 츠카사가 그림을 그린 일본 만화 시리즈이다. 이 작품은 영웅 파티가 마왕을 물리친 후의 이야기를 다루고 있다. 
+                    주인공 프리렌은 엘프 마법사로, 긴 수명을 가진 엘프의 특성 때문에 동료들의 죽음을 경험하게 된다. 프리렌은 동료들과의 추억을 되새기며 그들이 남긴 유산을 이어가기 위해 여행을 시작한다. 
+                    그녀는 여행 중 만나는 새로운 사람들과 함께 성장하고, 인간의 삶과 감정을 이해해 나간다. 이 작품은 시간의 흐름과 이별, 그리고 남은 자의 슬픔을 섬세하게 묘사한다. 
+                    장송의 프리렌은 독자들에게 깊은 감동과 여운을 남기는 이야기이다.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

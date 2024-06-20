@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Over The Taste</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="solution-style.css">
+
+    <!-- 구글 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+        
+    <style>
+        body {
+            margin: 0; 
+            padding: 0; 
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: green; 
+        }
+
+        #home {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background-image: url('images/main-bg.png');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo-container img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .bg-light-green {
+            background-color: #eef0e6;
+            height: 100vh; 
+            margin: 0; 
+            padding: 0; 
+        }
+
+        .full-height {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .text-container {
+            padding: 20px;
+        }
+
+        .text-left {
+            text-align: left;
+        }
+
+        .image-container {
+            display: flex;
+            gap: 20px; /* 포스터 사이의 간격 조정 */
+        }
+
+        .poster {
+            text-align: center;
+        }
+
+        .poster img {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .text-below {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>  
+   <section class="container-fluid bg-light-green full-height" id="Action">
+        <div class="row w-100 m-0 text-center">
+            <div class="col-12 p-5">
+                <h2 class="fw-bold text-success">Action</h2>
+                <p class="lead text-muted">빠른 전개와 긴장감 넘치는 전투 장면을 담은 애니메이션</p>
+                <div class="image-container d-flex justify-content-center">
+                    <div class="poster">
+                        <img src="images/Aposter1.png" width="200px" height="300px" alt="Action" data-bs-toggle="modal" data-bs-target="#bestmenuModal13">
+                        <div class="text-below">귀멸의 칼날</div>
+                    </div>
+                    <div class="poster">
+                        <img src="images/Aposter2.png" width="200px" height="300px" alt="Action" data-bs-toggle="modal" data-bs-target="#bestmenuModal14">
+                        <div class="text-below">도쿄 리벤져스</div>
+                    </div>
+                    <div class="poster">
+                        <img src="images/Aposter3.png" width="200px" height="300px" alt="Action" data-bs-toggle="modal" data-bs-target="#bestmenuModal15">
+                        <div class="text-below">원피스</div>
+                    </div>
+                    <div class="poster">
+                        <img src="images/Aposter4.png" width="200px" height="300px" alt="Action" data-bs-toggle="modal" data-bs-target="#bestmenuModal16">
+                        <div class="text-below">주술회전</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="bestmenuModal13" tabindex="-1" aria-labelledby="exampleModalLabel13" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel13">귀멸의 칼날</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    귀멸의 칼날은 고토게 코요하루가 창작한 일본 만화 시리즈다. 주인공 탄지로는 가족이 도깨비에게 살해당하고, 여동생 네즈코가 도깨비로 변해버린 사건을 겪는다. 
+                    탄지로는 여동생을 인간으로 되돌리기 위해 귀살대에 들어가게 된다. 그는 동료들과 함께 강력한 도깨비들과 싸우며 성장해 나간다. 탄지로는 끊임없는 훈련과 전투를 통해 강해지고, 
+                    새로운 기술을 익히게 된다. 작품은 탄지로의 희생과 용기, 그리고 동료들과의 우정을 중심으로 전개된다. 귀멸의 칼날은 감동적인 스토리와 뛰어난 작화로 많은 팬들의 사랑을 받고 있다.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="bestmenuModal14" tabindex="-1" aria-labelledby="exampleModalLabel14" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel14">도쿄 리벤져스</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    도쿄 리벤저스는 와쿠이 켄이 창작한 일본 만화 시리즈다. 주인공 타케미치는 우연히 과거로 돌아가 소중한 사람들을 구할 기회를 얻게 된다. 그는 불량 청소년 시절로 돌아가 친구들과 함께 강력한 갱단인 도쿄 만지회에 맞서 싸운다. 
+                    타케미치는 과거의 자신과 친구들의 운명을 바꾸기 위해 끊임없이 도전한다. 그는 여러 차례의 타임 리프를 통해 점점 더 강해지고, 리더십을 발휘하게 된다. 작품은 타케미치의 성장과 함께 친구들 간의 우정과 배신, 그리고 복수를 다루고 있다. 
+                    도쿄 리벤저스는 흥미진진한 스토리와 감동적인 순간들로 많은 독자들에게 사랑받고 있다.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="bestmenuModal15" tabindex="-1" aria-labelledby="exampleModalLabel15" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel15">원피스</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    원피스는 오다 에이치로가 창작한 일본 만화 시리즈다. 주인공 루피는 해적왕이 되기 위해 동료들과 함께 원피스를 찾아 모험을 떠난다. 그는 고무고무 열매를 먹어 고무처럼 늘어나는 능력을 가지게 된다. 루피는 다양한 섬을 여행하며 강력한 적들과 싸우고,
+                    새로운 동료들을 만나게 된다. 그는 해적단을 이끌며 자유와 모험, 우정을 중요시한다. 원피스는 방대한 세계관과 다채로운 캐릭터들, 그리고 흥미진진한 스토리로 유명하다. 
+                    작품은 루피와 그의 동료들이 어떤 역경도 극복하고 꿈을 향해 나아가는 모습을 그린다. 원피스는 전 세계적으로 큰 인기를 끌고 있는 작품이다.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="bestmenuModal16" tabindex="-1" aria-labelledby="exampleModalLabel16" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel16">주술회전</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    주술회전은 아쿠타미 게게가 창작한 일본 만화 시리즈다. 주인공 이타도리 유지는 우연히 주술 고등학교에 들어가 저주와 싸우는 주술사가 된다. 그는 강력한 저주인 료멘 스쿠나의 손가락을 삼키고, 
+                    그 힘을 얻게 된다. 이타도리는 동료 주술사들과 함께 저주에 맞서 싸우며 성장한다. 그는 주술사로서의 책임감과 희생을 배우며, 점점 더 강해진다. 작품은 이타도리의 용기와 희생, 그리고 동료들과의 유대감을 중심으로 전개된다. 
+                    주술회전은 독특한 주술 세계관과 강렬한 전투 장면들로 많은 팬들의 사랑을 받고 있다.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
